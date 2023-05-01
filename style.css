@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans-serif';
+}
+
+body {
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(./futur.jpg);
+    background-size: cover;   
+    background-repeat: no-repeat;
+
+    
+}
+
+section{
+    width: auto;
+    padding: 25px;
+    border-radius: 20px;    
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: rgba(255, 255, 255, 0.466);
+     -webkit-box-shadow: 5px 5px 15px 5px rgba(226, 62, 158, 0.51);
+    box-shadow:  5px 5px 15px 5px rgba(226, 62, 158, 0.51);
+    color: rgb(0, 0, 0);
+}
+
+
+label {
+
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+input{
+    width: 320px;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+.qr_c{
+
+    padding: 30px;
+    width: fit-content;
+    background-color: rgba(226, 185, 96, 0.966);
+    border-radius: 10px;
+    display: none;
+}
